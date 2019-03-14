@@ -20,3 +20,9 @@ body{margin: 0}
 .my-content{text-align: left}
 .my-block{box-sizing: border-box;padding: 0 15px;margin-top: 30px;background: #fafafa;border-radius: 0 5px 0 5px ;border-top: 3px solid #409EFF;border-bottom: 1px solid #f1f1f1}
 
+.space-line{width: 100%;height: 15px}
+
+.block-code{}
+.block-code code{font-size: 14px}
+code.space2{padding-left: 15px}
+code.space4{padding-left: 30px}

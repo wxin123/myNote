@@ -4,7 +4,7 @@
       <div class="container">
         <ul class="header-list my-flex-wrap">
           <li class="header-list-item"><a href="/html">HTML</a></li>
-          <li class="header-list-item"></li>
+          <li class="header-list-item"><a href="/js">JAVASCRIPT</a></li>
           <li class="header-list-item"></li>
           <li class="header-list-item"></li>
         </ul>
