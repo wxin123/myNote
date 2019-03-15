@@ -1,5 +1,5 @@
 <template>
-  <div id="html">
+  <div id="js">
     <div class="my-flex-wrap">
       <ul class="my-side-list">
         <li><a href="/js/inherit">JS继承</a></li>
