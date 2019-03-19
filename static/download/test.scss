@@ -1,0 +1,25 @@
+$color-red:#f00;
+$font: "Myriad Pro","Myriad","Helvetica Neue","Helvetica","Liberation Sans","sans-serif";
+
+@import "outer";
+
+@mixin border-radius($degree){
+  -webkit-border-radius: $degree;
+  -moz-border-radius: $degree;
+  border-radius: $degree;
+}
+
+.error{
+  display: block;
+}
+
+.dander a{
+  font-family: $font;
+  color: $color-red;
+  &:hover{font-size: 18px}
+  @include border-radius(4px);
+  @extend .error;
+}
+
+
+

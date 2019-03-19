@@ -5,13 +5,14 @@
         <ul class="header-list my-flex-wrap">
           <li class="header-list-item"><a href="/html">HTML</a></li>
           <li class="header-list-item"><a href="/js">JAVASCRIPT</a></li>
-          <li class="header-list-item"></li>
-          <li class="header-list-item"></li>
+          <li class="header-list-item"><a href="/css">CSS</a></li>
+          <li class="header-list-item"><a href="/python">PYTHON</a></li>
         </ul>
       </div>
     </header>
     <div class="my-content">
       <div class="container">
+        <p class="top"><a href="javascript:history.go(-1)">返回</a></p>
         <router-view/>
       </div>
     </div>
